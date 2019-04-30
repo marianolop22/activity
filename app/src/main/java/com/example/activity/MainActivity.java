@@ -23,12 +23,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         email = findViewById(R.id.txEmail);
         password = findViewById(R.id.txtPassword);
-
-
-
 
         btnRegister = findViewById( R.id.btnRegister);
 
@@ -47,8 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
-
 
         Log.i ( "LOGCAT", "create");
     }
